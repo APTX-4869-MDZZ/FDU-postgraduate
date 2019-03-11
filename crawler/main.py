@@ -32,11 +32,6 @@ def main():
             mentor_req = urllib.request.urlopen(mentor_url, timeout=10)
             mentor_soup = BeautifulSoup(mentor_req.read(), 'lxml')
             intro = mentor_soup.find_all('div', class_='t-inf ui-btmline')
-            style = mentor_soup.find('div', class_='pic-1').get('style')
-            if style != None:
-                avatar = re.findall(r'[a-zA-z]+://[^\s]*.jpg', style)
-                urllib.request.urlretrieve(
-                    avatar[0], './avatar/{}.jpg'.format(name))
             for each in intro:
                 contents = each.contents[0].split('：')
                 if '，' in contents[1]:
@@ -45,6 +40,11 @@ def main():
                     mentor_info[contents[0]] = contents[1].split('、')
                 else:
                     mentor_info[contents[0]] = contents[1]
+            style = mentor_soup.find('div', class_='pic-1').get('style')
+            if style != None and style != '':
+                avatar = re.findall(r'[a-zA-z]+://[^\s]*.jpg', style)
+                urllib.request.urlretrieve(
+                    avatar[0], './avatar/{}.jpg'.format(name))
             mentor_infos.append(mentor_info)
             print(name, 'ok')
         except Exception as e:
