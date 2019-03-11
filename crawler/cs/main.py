@@ -5,6 +5,7 @@ import json
 import re
 import os
 from bs4 import BeautifulSoup
+from pypinyin import lazy_pinyin
 
 
 def main():
@@ -35,16 +36,19 @@ def main():
             for each in intro:
                 contents = each.contents[0].split('：')
                 if '，' in contents[1]:
-                    mentor_info[contents[0]] = contents[1].split('，')
+                    mentor_info[contents[0]] = [x.strip()
+                                                for x in contents[1].split('，')]
                 elif '、' in contents[1]:
-                    mentor_info[contents[0]] = contents[1].split('、')
+                    mentor_info[contents[0]] = [x.strip()
+                                                for x in contents[1].split('、')]
                 else:
-                    mentor_info[contents[0]] = contents[1]
+                    mentor_info[contents[0]] = contents[1].strip()
             style = mentor_soup.find('div', class_='pic-1').get('style')
             if style != None and style != '':
                 avatar = re.findall(r'[a-zA-z]+://[^\s]*.jpg', style)
+                img_name = '_'.join(lazy_pinyin(cs_mentor.contents[0]))
                 urllib.request.urlretrieve(
-                    avatar[0], './avatar/{}.jpg'.format(name))
+                    avatar[0], './avatar/{}.jpg'.format(img_name))
             mentor_infos.append(mentor_info)
             print(name, 'ok')
         except Exception as e:
@@ -54,15 +58,9 @@ def main():
     with open('./gg_mentors.json', 'w', encoding='utf-8') as file:
         json.dump(gg_mentors, file, ensure_ascii=False)
 
-    with open('./cs_mentors.json', 'w', encoding='utf-8') as file:
+    with open('./mentors.json', 'w', encoding='utf-8') as file:
         json.dump(mentor_infos, file, ensure_ascii=False)
         print('Done.')
-
-
-def test():
-    with open('./cs_mentors.json', 'r', encoding='utf-8') as file:
-        f = json.load(file)
-        print(f)
 
 
 if __name__ == '__main__':
