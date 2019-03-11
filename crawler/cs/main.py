@@ -46,7 +46,7 @@ def main():
             style = mentor_soup.find('div', class_='pic-1').get('style')
             if style != None and style != '':
                 avatar = re.findall(r'[a-zA-z]+://[^\s]*.jpg', style)
-                img_name = '_'.join(lazy_pinyin(cs_mentor.contents[0]))
+                img_name = '_'.join(lazy_pinyin(name))
                 urllib.request.urlretrieve(
                     avatar[0], './avatar/{}.jpg'.format(img_name))
             mentor_infos.append(mentor_info)
