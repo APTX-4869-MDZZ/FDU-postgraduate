@@ -23,7 +23,7 @@ def main():
         img['imgUrl'] = r['field_avatar']
         imgs.append(img)
         mentorInfo = {}
-        mentorInfo['姓名'] = r['field_name']
+        mentorInfo['姓名'] = r['field_name'].strip()
         position = r['field_position']
         reObj = re.compile('[,，、]')
         positions = ''
@@ -33,9 +33,9 @@ def main():
         else:
             positions = position.strip()
         mentorInfo['职称'] = positions
-        mentorInfo['电话'] = r['field_phone']
-        mentorInfo['邮件'] = r['field_email']
-        mentorInfo['地址'] = r['field_officer']
+        mentorInfo['电话'] = r['field_phone'].strip()
+        mentorInfo['邮件'] = r['field_email'].strip()
+        mentorInfo['地址'] = r['field_officer'].strip()
         mentorInfo['学位'] = ''
         fields = ''
         field = r['field_major']
