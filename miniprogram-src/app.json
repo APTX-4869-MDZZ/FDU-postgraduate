@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/edit/edit",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#da251b",
+    "navigationBarTitleText": "Hello, FDU",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#da251b",
+    "selectedColor": "#da251b",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/bank.png",
+        "selectedIconPath": "images/bank.png"
+      },
+      {
+        "pagePath": "pages/edit/edit",
+        "text": "",
+        "iconPath": "images/plus.png",
+        "selectedIconPath": "images/plus.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

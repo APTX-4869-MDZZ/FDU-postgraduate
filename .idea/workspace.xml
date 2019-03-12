@@ -2,8 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8addfa32-47d3-4ab2-b39b-7d91f5247f8e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/images/bank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/images/fdu-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/images/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/it/add_research_diretion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/it/check_gg_mentors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/it/check_picture_lack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/it/gg_mentors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/it/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/it/mentors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/sds/gg_mentors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/sds/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/sds/mentors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/sme/gg_mentors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/sme/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawler/sme/mentors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/app.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/app.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/edit/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/edit/edit.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/edit/edit.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/edit/edit.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/index/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/index/index.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/index/index.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/index/index.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/logs/logs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/logs/logs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/logs/logs.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/logs/logs.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/mine/mine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/mine/mine.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/mine/mine.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/pages/mine/mine.wxss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/project.config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/miniprogram-src/utils/util.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/FDU-postgraduate.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/tangyuan.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/ceng_jian_ping.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/chen_rong_hua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/chen_yan_qiu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/ding_xiang_hua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/feng_hong_wei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/feng_rui.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/gu_ning.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/huang_xuan_jing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/jiang_yu_gang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/jin_cheng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/jing_yi_nan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/li_bin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/li_jing_tao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/li_min_bo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/li_wei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/li_yin_sheng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/liu_hui.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/lu_hong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/lu_tun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/ma_ying_qi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/mao_di_lin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/niu_jun_yu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/peng_xin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/qiu_xi_peng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/sha_chao_feng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/sun_wei_wei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/sun_xiao_guang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/tan_zi_jing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wang_fei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wang_peng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wang_wei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wang_xiao_yang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wang_xin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wang_zhi_hui.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wu_cheng_rong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wu_jie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/wu_yong_hui.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/xiao_chuan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/xie_zhi_peng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/xu_zhi_ping.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/xue_xiang_yang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/yan_bo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/yang_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhang_jian_guo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhang_jun_ping.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhang_liang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhang_qi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhang_shou_zhi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhang_wei_hua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhang_yue_jie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhang_zhong_zhi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhao_jin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhao_wen_yun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhao_yun_lei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhou_shui_geng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhou_xiang_dong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhu_dong_lai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhu_shan_feng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/cs/avatar/zhu_yang_yong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/cao_yu_ .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/chen_chen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/chen_rong_hua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/dai_kai_yu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/ding_su_fen_ .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/fang_xu_feng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/feng_hong_wei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/fu_yan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/han_wei_li.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/he_xiao_qing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/li_jing_tao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/li_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/li_min_bo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/li_xiao_wei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/li_yi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/li_yin_sheng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/liao_bing_hua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/liu_xin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/lu_sheng_qi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/niu_jun_yu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/peng_xin_ .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/shen_li_wei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/tang_yuan_ .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/wang_li_li.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/wang_xiao_yang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/wu_yi_jian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/xu_ying_xiao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/xue_shen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/yang_min_ .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/yang_zhe_min_ .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhang_mi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhang_rui.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhang_tian_ge_ .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhang_wei_hua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhang_yuan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhao_wei_dong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhao_wen_yun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhao_yi_ming.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhao_yun_lei.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zheng_xiao_qing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhu_chong_xiang_ .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/se/avatar/zhu_dong_lai.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/se/main.py" afterPath="$PROJECT_DIR$/crawler/se/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/cs/main.py" afterPath="$PROJECT_DIR$/crawler/cs/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/se/mentors.json" afterPath="$PROJECT_DIR$/crawler/se/mentors.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +161,11 @@
     <SUITE FILE_PATH="coverage/FDU_postgraduate$main.coverage" NAME="main Coverage Results" MODIFIED="1552300752717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler/se" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler/se/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
+            <state relative-caret-position="792">
               <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
               <folding>
                 <element signature="e#45#60#0" expanded="true" />
@@ -30,11 +174,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,8 +197,8 @@
       <file leaf-file-name="mentors.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler/se/mentors.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+            <state relative-caret-position="486">
+              <caret line="482" column="1" lean-forward="false" selection-start-line="482" selection-start-column="1" selection-end-line="482" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -59,6 +213,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/crawler/se/main.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/crawler/se/mentors.json" />
       </list>
     </option>
   </component>
@@ -89,6 +245,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -104,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,7 +291,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,30 +310,148 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler/se" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FDU-postgraduate" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/se/main.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FDU-postgraduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FDU-postgraduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FDU-postgraduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="FDU-postgraduate" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FDU-postgraduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FDU-postgraduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FDU-postgraduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FDU-postgraduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -195,24 +470,24 @@
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3494318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3494318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -227,48 +502,80 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/cao_yu_ .jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/chen_chen.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/li_jing_tao.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/he_xiao_qing.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/liu_xin.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/xu_ying_xiao.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/cs/mentors.json">
+    <entry file="file://$PROJECT_DIR$/crawler/se/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="792">
+          <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/cs/main.py">
+    <entry file="file://$PROJECT_DIR$/crawler/se/mentors.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="80" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="39" selection-end-column="80" />
+        <state relative-caret-position="24">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/se/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/se/mentors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/se/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -281,9 +588,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/cao_yu_ .jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/chen_chen.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/li_jing_tao.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/he_xiao_qing.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/liu_xin.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/xu_ying_xiao.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/cs/mentors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/cs/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="80" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="39" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/se/mentors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawler/se/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
+        <state relative-caret-position="210">
           <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
           <folding>
             <element signature="e#45#60#0" expanded="true" />
@@ -291,10 +634,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/cao_yu_ .jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/chen_chen.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/li_jing_tao.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/he_xiao_qing.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/liu_xin.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/se/avatar/xu_ying_xiao.jpg" />
+    <entry file="file://$PROJECT_DIR$/crawler/cs/mentors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/cs/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="80" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="39" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/se/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/se/mentors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="482" column="1" lean-forward="false" selection-start-line="482" selection-start-column="1" selection-end-line="482" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
