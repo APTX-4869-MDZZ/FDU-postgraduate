@@ -60,8 +60,6 @@ def main():
                     break
             while '' in mentor_info['论文专著获奖']:
                 mentor_info['论文专著获奖'].remove('')
-            mentor_infos.append(mentor_info)
-
 
             src = mentor.find('img', ('aligncenter', 'wp-image-1014')).get('src')
             if src != None and src != '':
