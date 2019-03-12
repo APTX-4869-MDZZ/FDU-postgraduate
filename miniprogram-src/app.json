@@ -1,32 +1,45 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/edit/edit",
     "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#da251b",
+    "navigationBarTitleText": "Hello, FDU",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
+    "color": "#da251b",
+    "selectedColor": "#da251b",
+    "backgroundColor": "white",
+    "borderStyle": "white",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "",
-        "iconPath": "images/bank.png"
+        "text": "首页",
+        "iconPath": "images/bank.png",
+        "selectedIconPath": "images/bank.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/edit/edit",
         "text": "",
-        "iconPath": "images/plus.png"
+        "iconPath": "images/plus.png",
+        "selectedIconPath": "images/plus.png"
       },
       {
         "pagePath": "pages/mine/mine",
-        "text": "",
-        "iconPath": "images/user.png"
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user.png"
       }
     ]
-  }
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
