@@ -1,22 +1,15 @@
-// pages/mine/mine.js
+// pages/detail/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    tags: [1, 2 , 3, 4, 5, 6, 7, 8, 9, 10]
   },
 
-  test: function() {
-    wx.navigateTo({
-      url: '../mentor/mentor',
-    });
-  },
-  test1: function() {
-    wx.navigateTo({
-      url: '../detail/detail',
-    });
+  back: function() {
+    wx.navigateBack();
   },
 
   /**

@@ -1,0 +1,40 @@
+/* pages/mentor/mentor.wxss */
+.top {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.profile {
+  background: #da251b;
+  color: #fff;
+  z-index: 99;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.nav {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  background: #da251b;
+  width: 100%;
+  height: 150rpx;
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-avatar {
+  position: absolute;
+  left: 5%;
+  padding-top: 5%;
+}
+
+.nav-text {
+  padding-top: 5%;
+}

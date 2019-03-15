@@ -1,0 +1,40 @@
+<!--pages/detail/detail.wxml-->
+<view class='container'>
+  <view class='nav'>
+    <i-icon 
+      class="back"
+      type="return"
+      size="28"
+      color="#fff"
+      bindtap='back'/>
+  </view>
+
+  <view class='main'>
+    <view>
+      <view class='title'>xxxxxxxxxx</view>
+      <view class='tag'>
+        <i-tag
+          wx:for="{{ tags }}"
+          wx:key="tags"
+          name="标签" 
+          color="green">
+          标签
+        </i-tag>
+      </view>
+    </view>
+    <i-divider content="author"></i-divider>
+    <view class='content'>
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    </view>
+    <view class='options'>
+      <view class='left'>
+        <i-icon size="20" type="browse" />
+        <view>6666</view>
+      </view>
+      <view class='right'>
+        <i-icon size="26" type="praise" />
+        <i-icon size="26" type="collection" />
+      </view>
+    </view>
+  </view>
+</view>

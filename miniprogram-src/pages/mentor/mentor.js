@@ -1,29 +1,47 @@
-// pages/mine/mine.js
+// pages/mentor/mentor.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    nav: true,
+    is_paper: true,
+    papers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   },
 
-  test: function() {
-    wx.navigateTo({
-      url: '../mentor/mentor',
-    });
+  onPageScroll: function (event) {
+    let _this = this;
+    if (event.scrollTop > 100) {
+      _this.setData({
+        nav: false
+      });
+    } else {
+      _this.setData({
+        nav: true
+      });
+    }
   },
-  test1: function() {
-    wx.navigateTo({
-      url: '../detail/detail',
-    });
+
+  handleChange: function ({ detail }) {
+    let _this = this;
+    if (detail.key === "tab1") {
+      console.log('123');
+      _this.setData({
+        is_paper: true
+      });
+    } else {
+      _this.setData({
+        is_paper: false
+      });
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // wx.hideTabBar({});
   },
 
   /**
