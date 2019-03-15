@@ -11,7 +11,7 @@
 
   <view class='main'>
     <view>
-      <view class='title'>xxxxxxxxxx</view>
+      <view class='title'>xxxxxxxxxxxxx</view>
       <view class='tag'>
         <i-tag
           wx:for="{{ tags }}"
@@ -28,12 +28,36 @@
     </view>
     <view class='options'>
       <view class='left'>
-        <i-icon size="20" type="browse" />
+        <i-icon size="20" type="browse"/>
         <view>6666</view>
       </view>
       <view class='right'>
-        <i-icon size="26" type="praise" />
-        <i-icon size="26" type="collection" />
+        <!-- praise icon -->
+        <i-icon
+          wx:if="{{ isPraised }}"
+          catchtap='onPraiseTap'
+          size="26"
+          type="praise_fill"
+          color="#da251b"/>
+        <i-icon
+          wx:else
+          catchtap='onPraiseTap'
+          size="26"
+          type="praise"
+          color="#da251b"/>
+        <!-- collection icon -->
+        <i-icon
+          wx:if="{{ isCollected }}"
+          catchtap='onCollectionTap'
+          size="26"
+          type="collection_fill"
+          color='#da251b'/>
+        <i-icon
+          wx:else
+          catchtap='onCollectionTap'
+          size="26" 
+          type="collection" 
+          color='#da251b'/>
       </view>
     </view>
   </view>

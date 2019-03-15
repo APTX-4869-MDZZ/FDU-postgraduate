@@ -5,11 +5,48 @@ Page({
    * 页面的初始数据
    */
   data: {
-    tags: [1, 2 , 3, 4, 5, 6, 7, 8, 9, 10]
+    tags: [1, 2 , 3, 4, 5, 6, 7, 8, 9, 10],
+    isCollected: false,
+    isPraised: false
   },
-
   back: function() {
     wx.navigateBack();
+  },
+  onPraiseTap: function(event) {
+    this.setData({
+      isPraised: !this.data.isPraised
+    });
+    if (this.data.isPraised) {
+      wx.showToast({
+        title: '谢谢',
+        icon: 'success',
+        duration: 1000
+      });
+    } else {
+      wx.showToast({
+        title: '已取消',
+        icon: 'success',
+        duration: 1000
+      });
+    }
+  },
+  onCollectionTap: function (event) {
+    this.setData({
+      isCollected: !this.data.isCollected
+    });
+    if (this.data.isCollected) {
+      wx.showToast({
+        title: '订阅成功',
+        icon: 'success',
+        duration: 1000
+      });
+    } else {
+      wx.showToast({
+        title: '已取消订阅',
+        icon: 'success',
+        duration: 1000
+      });
+    }
   },
 
   /**
