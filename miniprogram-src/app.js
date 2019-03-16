@@ -33,11 +33,7 @@ App({
       }
     })
   },
-  globalData: { //全局变量
-    userInfo: null,
-    URL: "https://blog.eunji.cn",
-    blogName: "Aquan",
-    TOKEN: "token",
-    highlightStyle: "dracula", //代码高亮样式，可用值default,darcula,dracula,tomorrow
-  },
+  globalData: {
+    userInfo: null
+  }
 })

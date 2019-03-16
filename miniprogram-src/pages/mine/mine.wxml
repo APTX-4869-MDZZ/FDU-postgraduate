@@ -1,3 +1,20 @@
 <!--pages/mine/mine.wxml-->
-<i-button bind:click="test">test</i-button>
-<i-button bind:click="test1">test1</i-button>
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      点击登录
+    </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text>{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <i-cell-group>
+    <i-cell title="收藏" is-link url="/pages/detail/detail">
+      <i-icon type="collection" slot="icon"/>
+    </i-cell>
+    <i-cell title="设置" is-link url="/pages/mentor/mentor">
+      <i-icon type="setup" slot="icon"/>
+    </i-cell>
+  </i-cell-group>
+</view>

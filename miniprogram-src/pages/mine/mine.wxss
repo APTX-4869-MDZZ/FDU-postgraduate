@@ -1,1 +1,25 @@
 /* pages/mine/mine.wxss */
+.userinfo {
+  background: #da251b;
+  color: #fff;
+  z-index: 99;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 100%;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.cell-group {
+  font-size: 30rpx;
+}
