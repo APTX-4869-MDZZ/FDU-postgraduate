@@ -1,2 +1,42 @@
 <!--pages/edit/edit.wxml-->
-<text>pages/edit/edit.wxml</text>
+<view class='container'>
+  <view class='nav'>
+    <view class='publish'>发布</view>
+  </view>
+  <view class='main'>
+    <!-- 标题 -->
+    <i-divider content="标题"></i-divider>
+    <input/>
+    <!-- 正文 -->
+    <i-divider content="正文"></i-divider>
+    <textarea class='text' maxlength='500'/>
+    <!-- 添加图片 -->
+    <i-divider content="图片"></i-divider>
+    <view class="weui-uploader__bd">
+      <view class="weui-uploader__files" id="uploaderFiles">
+          <block wx:for="{{files}}" wx:key="*this">
+              <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                  <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+              </view>
+          </block>
+      </view>
+      <view class="weui-uploader__input-box">
+          <view class="weui-uploader__input" bindtap="chooseImage"></view>
+      </view>
+    </view>
+    <!-- 文章标签 -->
+    <i-divider content="标签"></i-divider>
+    <i-tag 
+      wx:for="{{tags}}" 
+      wx:key="{{index}}"
+      bindchange="onChange" 
+      checkable="{{true}}" 
+      name="{{index}}" 
+      color="{{item.color}}" 
+      checked="{{item.checked}}" 
+      type="border"
+      style="margin-right:5px;">
+      {{item.name}}
+    </i-tag>
+  </view>
+</view>

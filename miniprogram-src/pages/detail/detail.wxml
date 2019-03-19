@@ -55,8 +55,8 @@
         <i-icon
           wx:else
           catchtap='onCollectionTap'
-          size="26" 
-          type="collection" 
+          size="26"
+          type="collection"
           color='#da251b'/>
       </view>
     </view>
