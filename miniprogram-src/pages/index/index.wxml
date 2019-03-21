@@ -1,13 +1,49 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
+<!-- 微信绑定 -->
+<view wx:if="{{first && !wxBind}}" class="container">
+  <button class="buttonStyle" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信绑定 </button>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text wx:if="{{!hasUserInfo && canIUse}}">{{motto}}</text>
   </view>
 </view>
+
+<!-- 选择专业方向 -->
+<view wx:if="{{first && wxBind}}">
+  <text class="instruction">{{instruction}}</text>
+  <i-row class="chooseView">
+    <button wx:for="{{tags}}" wx:key="{{item.text}}" class="{{item.isChosen ? 'tagSelected' : 'tag'}}" bindtap="bindTagTap">{{item.text}}</button>
+  </i-row>
+  <button class="confirm" bindtap="bindConfirmTap">确定</button>
+</view>
+
+<!-- 首页 -->
+<view wx:if="{{!first}}">
+  <view class="search">
+    <view class="searchItem">
+      <i-icon type="search" size="18" color="#808080" class="searchIcon"/>
+      <input placeholder="Search..." class="searchInput" bindinput="bindInput"/>
+      <button class="searchButton" bindtap="bindSearchBtn">搜索</button>
+    </view>
+  </view>
+  <view>
+    <i-tabs current="{{ current }}" color="#da251b" bindchange="handleChange">
+      <i-tab key="tuijian" title="推荐">
+      </i-tab>
+      <i-tab key="guanzhu" title="关注">
+      </i-tab>
+      <i-tab key="remen" title="热门">
+      </i-tab>
+    </i-tabs>
+  </view>
+  <view class="content">
+    <i-card title="文章标题" full="true" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+      <view slot="content">内容不错</view>
+      <view slot="footer">
+        <i-tag class="i-tags" name="标签一" type="border" color="red"> 标签一 </i-tag>
+        <i-tag class="i-tags iTag" name="标签二" type="border" color="red"> 标签二 </i-tag>
+      </view>
+    </i-card>
+  </view>
+</view>
+
+

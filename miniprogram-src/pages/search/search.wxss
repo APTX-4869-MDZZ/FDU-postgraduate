@@ -1,0 +1,8 @@
+/* pages/search/search.wxss */
+.content{
+  margin-top: 10px;
+}
+
+.iTag{
+  margin-left: 5px;
+}

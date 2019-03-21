@@ -1,0 +1,12 @@
+<!--pages/search/search.wxml-->
+<view class="content">
+  <view>
+    <i-card title="文章标题" full="true" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+      <view slot="content">内容不错</view>
+      <view slot="footer">
+        <i-tag class="i-tags" name="标签一" type="border" color="red"> 标签一 </i-tag>
+        <i-tag class="i-tags iTag" name="标签二" type="border" color="red"> 标签二 </i-tag>
+      </view>
+    </i-card>
+  </view>
+</view>
