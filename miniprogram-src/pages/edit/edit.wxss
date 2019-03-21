@@ -1,1 +1,31 @@
 /* pages/edit/edit.wxss */
+@import 'weui.wxss';
+
+.nav {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  background: #da251b;
+  width: 100%;
+  height: 150rpx;
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.publish {
+  font-size: 18px;
+  padding: 4% 0 0 4%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.main {
+  margin: 150rpx 20rpx 0 20rpx;
+}
+
+.text {
+  width: 100%;
+}

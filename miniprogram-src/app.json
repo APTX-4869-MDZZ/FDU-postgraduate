@@ -3,14 +3,17 @@
     "pages/index/index",
     "pages/edit/edit",
     "pages/mine/mine",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/mentor/mentor",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#da251b",
     "navigationBarTitleText": "Hello, FDU",
     "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": true,
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "color": "#da251b",
