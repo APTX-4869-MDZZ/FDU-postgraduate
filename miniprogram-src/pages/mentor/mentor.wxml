@@ -1,0 +1,34 @@
+<!--pages/mentor/mentor.wxml-->
+<view class='container'>
+
+  <view class='top'>
+    <view class='profile'>
+      <i-avatar size="large" shape="square">A</i-avatar>
+      <view>Name</view>
+      <view>Email</view>
+    </view>
+  </view>
+
+  <view class='nav' hidden='{{nav}}'>
+    <i-avatar size="small" class='nav-avatar'>A</i-avatar>
+    <view class='nav-text'>Name</view>
+  </view>
+
+  <i-tabs current="{{ current }}" color="#da251b" bindchange="handleChange">
+    <i-tab key="tab1" title="帖子"></i-tab>
+    <i-tab key="tab2" title="paper"></i-tab>
+  </i-tabs>
+
+  <view hidden="{{ is_paper }}">
+    <i-card wx:for="{{ papers }}" title="卡片标题" wx:key='i'>
+      <view slot="footer">paper</view>
+    </i-card>
+  </view>
+
+  <view hidden="{{ !is_paper }}">
+    <i-card wx:for="{{ papers }}" title="卡片标题" wx:key='i'>
+      <view slot="footer">帖子</view>
+    </i-card>
+  </view>
+
+</view>

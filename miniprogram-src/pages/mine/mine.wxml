@@ -1,2 +1,23 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      点击登录
+    </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text>{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <i-cell-group>
+    <i-cell title="我的文章" is-link url="/pages/detail/detail">
+      <i-icon type="editor" slot="icon"/>
+    </i-cell>
+    <i-cell title="收藏" is-link url="/pages/detail/detail">
+      <i-icon type="collection" slot="icon"/>
+    </i-cell>
+    <i-cell title="设置" is-link url="/pages/mentor/mentor">
+      <i-icon type="setup" slot="icon"/>
+    </i-cell>
+  </i-cell-group>
+</view>

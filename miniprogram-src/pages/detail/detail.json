@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-icon": "/dist/icon/index",
+    "i-tag": "/dist/tag/index",
+    "i-divider": "/dist/divider/index"
+  }
+}

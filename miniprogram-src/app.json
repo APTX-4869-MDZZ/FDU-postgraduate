@@ -2,14 +2,18 @@
   "pages": [
     "pages/index/index",
     "pages/edit/edit",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/mentor/mentor",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#da251b",
     "navigationBarTitleText": "Hello, FDU",
     "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": true,
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "color": "#da251b",
@@ -41,5 +45,16 @@
     "request": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": true,
+  "usingComponents": {
+    "i-row": "/dist/row/index",
+    "i-col": "/dist/col/index",
+    "i-input": "/dist/input/index",
+    "i-icon": "/dist/icon/index",
+    "i-tabs": "/dist/tabs/index",
+    "i-tab": "/dist/tab/index",
+    "i-card": "/dist/card/index",
+    "i-tag": "/dist/tag/index",
+    "i-button": "/dist/button/index"
+  }
 }

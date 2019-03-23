@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "i-card": "/dist/card/index",
+    "i-avatar": "/dist/avatar/index",
+    "i-spin": "/dist/spin/index",
+    "i-tabs": "/dist/tabs/index",
+    "i-tab": "/dist/tab/index"
+  },
+  "enablePullDownRefresh": false
+}
