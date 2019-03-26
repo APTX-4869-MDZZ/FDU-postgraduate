@@ -11,7 +11,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     wxBind: false,
-    first: false,
+    first: true,
     searchValue: '',
     instruction: '选择你感兴趣的专业（可多选）：',
     tags: [
