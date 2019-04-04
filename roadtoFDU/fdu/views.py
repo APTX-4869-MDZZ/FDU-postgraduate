@@ -15,6 +15,7 @@ def login(request):
     req_json = json.loads(request.read(), encoding='utf-8')
     js_code = req_json['code']
     url = 'https://api.weixin.qq.com/sns/jscode2session?appid={}&secret={}&js_code={}&grant_type=authorization_code'.format(constant.appid, constant.secret_key, js_code)
+    print(js_code)
     wxresponse = requests.get(url)
     wxresponse_json = json.loads(wxresponse.text)
     print(wxresponse_json)
@@ -24,6 +25,7 @@ def login(request):
     if 'errcode' not in wxresponse_json:
         m = hashlib.md5()
         session_seed = wxresponse_json['openid']+wxresponse_json['session_key']
+        session_seed = session_seed.encode('utf-8')
         m.update(session_seed)
         sessionid = m.hexdigest()
         User.objects.create(openid=wxresponse_json['openid'], session_key=wxresponse_json['session_key'], sessionid=sessionid)
