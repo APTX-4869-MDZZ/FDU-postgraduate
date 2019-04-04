@@ -32,3 +32,13 @@ def login(request):
         print(wxresponse_json['errcode'], wxresponse_json['errmsg'])
         res['success'] = False
     return HttpResponse(json.dumps(res), content_type="application/json")
+
+@require_http_methods(["GET"])
+def test(request):
+    sessionid = request.session.get('id', False)
+    if not sessionid:
+        return HttpResponse('get no session', content_type="application/json")
+    else:
+        user = User.objects.get(sessionid=sessionid)
+        print(user.openid)
+        return HttpResponse('find it', content_type="application/json")
