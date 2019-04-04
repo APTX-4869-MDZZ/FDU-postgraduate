@@ -23,10 +23,11 @@ def login(request):
     }
     if 'errcode' not in wxresponse_json:
         m = hashlib.md5()
-        User.objects.create(openid=wxresponse_json['openid'], session_key=wxresponse_json['session_key'])
         session_seed = wxresponse_json['openid']+wxresponse_json['session_key']
         m.update(session_seed)
-        request.session['id'] = m.hexdigest()
+        sessionid = m.hexdigest()
+        User.objects.create(openid=wxresponse_json['openid'], session_key=wxresponse_json['session_key'], sessionid=sessionid)
+        request.session['id'] = sessionid
     else:
         print(wxresponse_json['errcode'], wxresponse_json['errmsg'])
         res['success'] = False
