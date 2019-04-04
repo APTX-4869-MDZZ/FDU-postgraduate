@@ -5,14 +5,16 @@ from django.core import serializers
 import requests
 
 import json
+import hashlib
 
 from .models import User
+from tools import constant
 
 @require_http_methods(["POST"])
 def login(request):
     req_json = json.loads(request.read(), encoding='utf-8')
     js_code = req_json['code']
-    url = 'https://api.weixin.qq.com/sns/jscode2session?appid=wxb42e944a8a905558&secret=0ab9ad927dd1caf7cc76779ab67891dc&js_code={}&grant_type=authorization_code'.format(js_code)
+    url = 'https://api.weixin.qq.com/sns/jscode2session?appid={}&secret={}&js_code={}&grant_type=authorization_code'.format(constant.appid, constant.secret_key, js_code)
     wxresponse = requests.get(url)
     wxresponse_json = json.loads(wxresponse.text)
     print(wxresponse_json)
@@ -20,8 +22,11 @@ def login(request):
         'success': True
     }
     if 'errcode' not in wxresponse_json:
+        m = hashlib.md5()
         User.objects.create(openid=wxresponse_json['openid'], session_key=wxresponse_json['session_key'])
-        res['openid'] = wxresponse_json['openid']
+        session_seed = wxresponse_json['openid']+wxresponse_json['session_key']
+        m.update(session_seed)
+        request.session['id'] = m.hexdigest()
     else:
         print(wxresponse_json['errcode'], wxresponse_json['errmsg'])
         res['success'] = False
