@@ -7,9 +7,32 @@ App({
     wx.setStorageSync('logs', logs)
 
     // 登录
+    let self = this
     wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+      success(res) {
+        if (res.code) {
+          console.log(res.code)
+          // 发起网络请求
+          wx.request({
+            url: `https://www.btewz.com/user/login`,
+            data: {
+              code: res.code
+            },
+            method: 'POST',
+            success(res) {
+              let success = res.data.success
+              if (success) {
+                console.log('登录成功')
+                self.globalData.header.Cookie = 'SESSIONID=' + res.data.sessionid
+              }
+              else {
+                console.log('登录失败')
+              }
+            }
+          })
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
       }
     })
     // 获取用户信息
@@ -34,6 +57,9 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    header: {
+      'Cookie': ''
+    }
   }
 })

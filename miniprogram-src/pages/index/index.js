@@ -152,24 +152,6 @@ Page({
   },
   getUserInfo: function(e) {
     console.log(e)
-    //微信登录
-    wx.login({
-      success(res) {
-        if (res.code) {
-          console.log(res.code)
-          // 发起网络请求
-          wx.request({
-            url:`https://www.btewz.com/login`,
-            data: {
-              code: res.code
-            },
-            method: 'POST'
-          })
-        } else {
-          console.log('登录失败！' + res.errMsg)
-        }
-      }
-    })
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
