@@ -1,8 +1,82 @@
 /* pages/search/search.wxss */
 .content{
-  margin-top: 10px;
+  margin-top: 160rpx;
 }
 
 .iTag{
   margin-left: 5px;
 }
+
+.nav {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  background: #da251b;
+  width: 100%;
+  height: 150rpx;
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navReturn{
+  margin-left: 10px;
+  margin-top: 30rpx;
+  width: 20vw;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  border-radius: 20px;
+  background: #A72027;
+}
+
+.searchBar{
+  margin-left: 2.5vw;
+  width: 95vw;
+  height: 30px;
+  background-color: #F0EFF5;
+  border-radius: 5px;
+  margin-top: 170rpx;
+}
+
+.mIcon{
+  float: left;
+  margin-left: 2vw;
+}
+
+.mInput{
+  float: left;
+  height: 30px;
+  width: 60vw;
+  margin-left: 2vw;
+  color: #808080;
+  font-size: 16px;
+}
+
+.mButton{
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  width: 20vw;
+  color: #808080;
+  font-size: 16px;
+  text-align: center;
+}
+
+.mentorView{
+  margin-top: 10px;
+}
+
+.line{
+  margin-top: 10px;
+  width: 100vw;
+  height: 2px;
+  background-color: #da251b;
+}
+
+.cardView{
+  margin-top: 10px;
+}
+

@@ -1,4 +1,5 @@
 // pages/index/index.js
+var app = getApp()
 Page({
 
   /**
@@ -10,7 +11,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     wxBind: false,
-    first: false,
+    first: true,
     searchValue: '',
     instruction: '选择你感兴趣的专业（可多选）：',
     tags: [
@@ -151,19 +152,30 @@ Page({
   },
   getUserInfo: function(e) {
     console.log(e)
+    //微信登录
+    wx.login({
+      success(res) {
+        if (res.code) {
+          console.log(res.code)
+          // 发起网络请求
+          wx.request({
+            url:`https://www.btewz.com/login`,
+            data: {
+              code: res.code
+            },
+            method: 'POST'
+          })
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
+      }
+    })
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true,
       wxBind: true
     })
-
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
 
   },
 

@@ -19,9 +19,9 @@ def login(request):
     res = {
         'success': True
     }
-    if 'errcode' in wxresponse_json:
-        User.objects.create(openid=wxresponse_json['openid'], session_key=wxresponse_json['session_key'], unionid=wxresponse_json['unionid'])
-        res['user']=wxresponse_json['session_key']
+    if 'errcode' not in wxresponse_json:
+        User.objects.create(openid=wxresponse_json['openid'], session_key=wxresponse_json['session_key'])
+        res['openid'] = wxresponse_json['openid']
     else:
         print(wxresponse_json['errcode'], wxresponse_json['errmsg'])
         res['success'] = False

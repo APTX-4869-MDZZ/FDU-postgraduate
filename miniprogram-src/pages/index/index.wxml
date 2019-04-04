@@ -1,6 +1,8 @@
 <!--index.wxml-->
 <!-- 微信绑定 -->
 <view wx:if="{{first && !wxBind}}" class="container">
+  <view class="nav">
+  </view>
   <button class="buttonStyle" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 微信绑定 </button>
   <view class="usermotto">
     <text wx:if="{{!hasUserInfo && canIUse}}">{{motto}}</text>
@@ -9,6 +11,8 @@
 
 <!-- 选择专业方向 -->
 <view wx:if="{{first && wxBind}}">
+  <view class="nav">
+  </view>
   <text class="instruction">{{instruction}}</text>
   <i-row class="chooseView">
     <button wx:for="{{tags}}" wx:key="{{item.text}}" class="{{item.isChosen ? 'tagSelected' : 'tag'}}" bindtap="bindTagTap">{{item.text}}</button>
@@ -18,6 +22,8 @@
 
 <!-- 首页 -->
 <view wx:if="{{!first}}">
+  <view class="nav">
+  </view>
   <view class="search">
     <view class="searchItem">
       <i-icon type="search" size="18" color="#808080" class="searchIcon"/>
@@ -45,5 +51,4 @@
     </i-card>
   </view>
 </view>
-
 

@@ -1,6 +1,24 @@
 <!--pages/search/search.wxml-->
 <view class="content">
-  <view>
+  <view class="nav">
+    <button type="text" class="navReturn" bindtap="returnToIndex">返回</button>
+  </view>
+  <view class="searchBar">
+    <i-icon type="search" size="18" color="#808080" class="mIcon"/>
+    <input placeholder="Search..." class="mInput"></input>
+    <button class="mButton">搜索</button>
+  </view>
+  <view class="mentorView">
+    <i-card title="导师" full="true" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+      <view slot="content">内容不错</view>
+      <view slot="footer">
+        <i-tag class="i-tags" name="标签一" type="border" color="red"> 标签一 </i-tag>
+        <i-tag class="i-tags iTag" name="标签二" type="border" color="red"> 标签二 </i-tag>
+      </view>
+    </i-card>
+  </view>
+  <view class="line"></view>
+  <view class="cardView">
     <i-card title="文章标题" full="true" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
       <view slot="content">内容不错</view>
       <view slot="footer">
