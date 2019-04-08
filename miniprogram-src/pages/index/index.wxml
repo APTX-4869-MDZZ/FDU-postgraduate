@@ -23,15 +23,14 @@
 <!-- 首页 -->
 <view wx:if="{{!first}}">
   <view class="nav">
-  </view>
-  <view class="search">
-    <view class="searchItem">
-      <i-icon type="search" size="18" color="#808080" class="searchIcon"/>
-      <input placeholder="Search..." class="searchInput" bindinput="bindInput"/>
-      <button class="searchButton" bindtap="bindSearchBtn">搜索</button>
+    <view class="search">
+      <view class="searchItem">
+        <i-icon type="search" size="18" color="#939292" class="searchIcon"/>
+        <input placeholder="Search..." value="{{searchValue}}" class="searchInput" bindinput="bindInput" bindconfirm="bindSearch"/>
+      </view>
     </view>
   </view>
-  <view>
+  <view class="panel">
     <i-tabs current="{{ current }}" color="#da251b" bindchange="handleChange">
       <i-tab key="tuijian" title="推荐">
       </i-tab>

@@ -60,6 +60,7 @@ App({
     userInfo: null,
     header: {
       'Cookie': ''
-    }
+    },
+    searchValue: ''
   }
 })

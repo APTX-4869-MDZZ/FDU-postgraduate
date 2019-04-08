@@ -1,11 +1,13 @@
 <!--pages/search/search.wxml-->
 <view class="content">
   <view class="nav">
-    <button type="text" class="navReturn" bindtap="returnToIndex">返回</button>
+    <view class="navReturn">
+      <i-icon type="return" class="return" size="30" bindtap="returnToIndex"/>
+    </view>
   </view>
   <view class="searchBar">
     <i-icon type="search" size="18" color="#808080" class="mIcon"/>
-    <input placeholder="Search..." class="mInput"></input>
+    <input placeholder="{{searchValue}}" class="mInput"></input>
     <button class="mButton">搜索</button>
   </view>
   <view class="mentorView">

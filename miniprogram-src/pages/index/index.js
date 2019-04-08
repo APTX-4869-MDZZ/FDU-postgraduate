@@ -66,8 +66,9 @@ Page({
     })
   },
 
-  bindSearchBtn: function(){
+  bindSearch: function(){
     console.log(this.data.searchValue)
+    app.globalData.searchValue = this.data.searchValue
     wx.navigateTo({
       url: '../search/search',
     })
@@ -82,38 +83,6 @@ Page({
       }
     }
     console.log(tagArray)
-    // this.setData({
-    //   instruction: '选择你感兴趣的方向（可多选）：',
-    //   tags:[
-    //     {
-    //       isChosen: false,
-    //       text: '微服务'
-    //     },
-    //     {
-    //       isChosen: false,
-    //       text: '大数据'
-    //     },
-    //     {
-    //       isChosen: false,
-    //       text: '可视化'
-    //     },
-    //     {
-    //       isChosen: false,
-    //       text: '计算机视觉'
-    //     },
-    //     {
-    //       isChosen: false,
-    //       text: '分布式'
-    //     },
-    //     {
-    //       isChosen: false,
-    //       text: '区块链'
-    //     }
-    //   ]
-    // })
-    // wx.navigateTo({
-    //   url: '../logs/logs'
-    // })
     this.setData({
       first: false
     })
@@ -172,7 +141,9 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.setData({
+      searchValue: ''
+    })
   },
 
   /**

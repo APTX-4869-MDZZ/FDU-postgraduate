@@ -1,11 +1,12 @@
 // pages/search/search.js
+var app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    searchValue: ''
   },
 
   /**
@@ -30,7 +31,9 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.setData({
+      searchValue: app.globalData.searchValue
+    })
   },
 
   /**

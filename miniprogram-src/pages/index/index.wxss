@@ -91,19 +91,18 @@
 
 .search{
   float: left;
-  background-color: white;
   width: 100vw;
-  height: 50px;
-  margin-top: 150rpx;
 }
 
 .searchItem{
   float: left;
-  margin-top: 10px;
+  margin-top: 6px;
   margin-left: 2vw;
-  width: 96vw;
-  background-color: #F0EFF5;
-  border-radius: 5px;
+  width: 70vw;
+  background-color: white;
+  border-radius: 20px;
+  height: 30px;
+  line-height: 30px;
 }
 
 .searchIcon{
@@ -116,18 +115,13 @@
   margin-left: 2vw;
   width: 60vw;
   height: 30px;
-  color: #808080;
+  line-height: 30px;
+  color: #939292;
   font-size: 16px;
 }
 
-.searchButton{
-  float: right;
-  width: 20vw;
-  height: 30px;
-  line-height: 30px;
-  color: #808080;
-  font-size: 16px;
-  text-align: center;
+.panel{
+  margin-top: 150rpx;
 }
 
 .content{
